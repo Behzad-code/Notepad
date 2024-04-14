@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_about"
+        android:title="@string/about_us" />
+
+    <item
+        android:id="@+id/item_contact"
+        android:title="@string/contact_us" />
+
+
+    <item
+        android:id="@+id/item_exit"
+        android:title="@string/exit" />
+
+    <item
+        android:id="@+id/item_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/_11817_search_strong_icon"
+        app:iconTint="@color/white"
+        />
+
+    <item
+        android:id="@+id/item_web"
+        android:title="@string/website"
+        app:showAsAction="always"
+        android:icon="@drawable/_559766_media_network_social_website_wordpress_icon"
+        app:iconTint="@color/white"
+        />
+
+</menu>
